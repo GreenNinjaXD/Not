@@ -1,0 +1,93 @@
+@media(max-width:1200px) {
+    .father{
+        flex-wrap: wrap;
+    }
+
+    input{
+        width: 170px;   
+    }
+}
+@media(max-width:992px) {
+    .content_gg{
+        height: 550px;
+    }
+
+    .content_btn{
+        margin-top: 20px;
+    }
+
+    .about_content{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact_cards{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact_phone{
+        justify-content: center;
+    }
+
+    .contact_title{
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:768px) {
+    .nav_item{
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .content_title{
+        font-size: 70px;
+        padding-bottom: initial;
+    }
+
+    .content_text{
+        font-size: 30px;
+    }
+
+    .content_btn{
+        padding: 10px 70px;
+    }
+}
+@media(max-width:576px) {
+    .about_img{
+        width: 320px;
+        height: 180px;
+    }
+
+    .item_cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact_text{
+        font-size: 15px;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .contact_phone{
+        font-size: 15px;
+    }
+
+    .contact_mail{
+        font-size: 15px;
+    }
+}
